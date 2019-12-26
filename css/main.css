@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+.padZero {
+    padding: 0px !important;
+}
+.aside-background-color {
+    background-color: #343a40;
+}
+.logo-height {
+    height: 54px;
+}
+.margin-Top-Ten {
+    margin-top: 10px;
+}
+
+/*Override bootstrap*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: unset;
+}
